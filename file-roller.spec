@@ -4,7 +4,7 @@
 #
 Name     : file-roller
 Version  : 3.26.2
-Release  : 1
+Release  : 2
 URL      : http://ftp.gnome.org/pub/GNOME/sources/file-roller/3.26/file-roller-3.26.2.tar.xz
 Source0  : http://ftp.gnome.org/pub/GNOME/sources/file-roller/3.26/file-roller-3.26.2.tar.xz
 Summary  : No detailed summary available
