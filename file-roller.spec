@@ -4,7 +4,7 @@
 #
 Name     : file-roller
 Version  : 3.26.2
-Release  : 2
+Release  : 3
 URL      : http://ftp.gnome.org/pub/GNOME/sources/file-roller/3.26/file-roller-3.26.2.tar.xz
 Source0  : http://ftp.gnome.org/pub/GNOME/sources/file-roller/3.26/file-roller-3.26.2.tar.xz
 Summary  : No detailed summary available
@@ -120,9 +120,9 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1511310735
+export SOURCE_DATE_EPOCH=1517681975
 %configure --disable-static
-make V=1  %{?_smp_mflags}
+make  %{?_smp_mflags}
 
 %check
 export LANG=C
@@ -132,7 +132,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1511310735
+export SOURCE_DATE_EPOCH=1517681975
 rm -rf %{buildroot}
 %make_install
 %find_lang file-roller
