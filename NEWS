@@ -1,3 +1,89 @@
+version 3.32.0
+--------------
+
+ New or updated application translations:
+
+  * Korea (Seong-ho Cho)
+
+version 3.31.92
+---------------
+
+ New or updated application translations:
+
+  * Deutsch (Bernd Homuth)
+  * Dutch (Nathan Follens)
+  * Italian (Milo Casagrande)
+  * Latvian (Rūdolfs Mazurs)
+  * Lietuvių (Aurimas Černius)
+  * Portuguese - Brazil (Rafael Fontenelle)
+  * Vietnamese (Trần Ngọc Quân)
+  * Русский (Stas Solovey)
+  * српски (Марко М. Костић)
+
+version 3.31.91
+---------------
+
+ New or updated application translations:
+
+  * Chinese (pan93412)
+  * Danish (Alan Mortensen)
+  * français (Guillaume Bernard)
+  * Kazakh (Baurzhan Muftakhidinov)
+  * Polish (Piotr Drąg)
+  * suomi (Jiri Grönroos)
+  * čeština (Marek Černocký)
+
+version 3.31.90
+---------------
+
+ New or updated application translations:
+
+  * Catalan (Gil Forcada)
+  * Esperanto (Carmen Bianca BAKKER)
+  * français (Guillaume Bernard)
+  * Galician (Fran Dieguez)
+  * Hungarian (Balázs Úr)
+  * Indonesian (Kukuh Syafaat)
+  * Japanese (sicklylife)
+  * Romanian (Daniel Șerbănescu)
+
+ New or updated manual translations:
+
+  * es (Daniel Mustieles)
+
+version 3.31.2
+--------------
+
+ New features and user visible changes:
+
+  * Improved app icon. (Jakub Steiner)
+  * Overwrite dialog: added button to skip all existing files when
+    extracting. (J08nY)
+
+ Source code changes:
+
+  * Use G_DECLARE_TYPE boilerplate. (Robert Ancell)
+
+ New or updated application translations:
+
+  * es (Daniel Mustieles)
+  * Esperanto (Kristjan SCHMIDT)
+  * Friulian (Fabio Tomat)
+  * Japanese (sicklylife)
+  * Slovenian (Matej Urbančič)
+  * Swedish (Anders Jonsson)
+  * Türkçe (sabri Ünal)
+  * čeština (Marek Černocký)
+  * Ελληνικά (Efstathios Iosifidis)
+
+version 3.31.1
+--------------
+
+ New features and user visible changes:
+
+  * Removed the application menu.
+  * Updated application icon. (Jakub Steiner)
+
 version 3.30.1
 --------------
 
