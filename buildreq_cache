@@ -1,5 +1,9 @@
-3.32.0
+3.32.1
 json-glib-dev
 libarchive-dev
 libnotify-dev
 nautilus-dev
+pkgconfig(json-glib-1.0)
+pkgconfig(libarchive)
+pkgconfig(libnautilus-extension)
+pkgconfig(libnotify)
