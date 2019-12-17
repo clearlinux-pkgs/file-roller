@@ -4,7 +4,7 @@
 #
 Name     : file-roller
 Version  : 3.32.3
-Release  : 16
+Release  : 17
 URL      : https://download.gnome.org/sources/file-roller/3.32/file-roller-3.32.3.tar.xz
 Source0  : https://download.gnome.org/sources/file-roller/3.32/file-roller-3.32.3.tar.xz
 Summary  : No detailed summary available
