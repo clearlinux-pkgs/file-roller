@@ -1,25 +1,119 @@
-version 3.32.5
+version 3.36.2
 --------------
 
  Bugs fixed:
 
   * libarchive: do not follow external links when extracting files.
   * libarchive: overwrite symbolic links as well if requested by the user.
+  * Help: Update steps to create a new archive to 3.34 UI. (Andre Klapper)
 
  New or updated application translations:
 
+  * Hebrew (Yosef Or Boczko)
+  * Kurdish (Sorani) (Jwtiyar Nariman)
+  * Turkish (Emin Tufan Çetin)
+
+ New or updated manual translations:
+
+  * French (Guillaume Bernard)
+  * Indonesian (Andika Triwidada)
+  * Polish (Piotr Drąg)
+  * Ukrainian (Yuri Chornoivan)
+
+version 3.36.1
+--------------
+
+ Bugs fixed:
+
+  * Fixed Properties command in menubar. (Sabri Ünal)
+  * Fixed compiling with GCC 10. (David Seifert)
+
+ New or updated application translations:
+
+  * Burmese (Vampire)
+  * Ukrainian (Yuri Chornoivan)
+
+ New or updated manual translations:
+
+  * Catalan (Manel Vidal)
+  * Czech (Marek Černocký)
+  * French (Charles Monzat)
+  * Indonesian (Andika Triwidada)
+
+version 3.36.0
+--------------
+
+ New or updated application translations:
+
+  * Japanese (sicklylife)
   * Kurdish (Sorani) (Jwtiyar Nariman)
 
-version 3.32.4
---------------
+ New or updated manual translations:
+
+  * Polish (Piotr Drąg)
+  * Swedish (Anders Jonsson)
+
+version 3.35.92
+---------------
+
+ New features and user visible changes:
+
+  * User's manual updates (Andre Klapper)
 
  New or updated application translations:
 
-  * Japanese (Ryuta Fujii)
-  * Malay (Umarzuki Bin Mochlis Moktar)
+  * English - United Kingdom (Bruce Cowan)
 
-version 3.32.3
+ New or updated manual translations:
+
+  * Brazilian Portuguese (Fábio Nogueira)
+
+version 3.35.91
+---------------
+
+ New features and user visible changes:
+
+  * Updated manual (Andre Klapper)
+
+ New or updated application translations:
+
+  * Japanese (sicklylife)
+
+ New or updated manual translations:
+
+  * es (Daniel Mustieles)
+
+version 3.35.90
+---------------
+
+ New or updated application translations:
+
+  * Galician (Fran Dieguez)
+  * Japanese (sicklylife)
+  * Pasukan Terjemahan Malaysia (abuyop)
+  * Turkish (Emin Tufan Çetin)
+
+ New or updated manual translations:
+
+  * Galician (Fran Diéguez)
+
+version 3.35.1
 --------------
+
+ New features and user visible changes:
+
+  * Support for Zstandard compressed files/archives. (Felix Riemann)
+  * Allow to directly open .tar.lzo files. (Felix Riemann)
+  * libarchive: implemented read support for 7z. (Peter Keresztes Schmidt)
+  * Provide a development variant of the app icon. (Jakub Steiner) (!12)
+  * Converted README to README.md (Roger)
+  * Remove file-roller from the recommended applications for ePub
+    files. (Bastien Nocera)
+
+ Bugs fixed:
+
+  * Removed deprecated functions. (Peter Keresztes Schmidt)
+  * Add application/x-xar as a supported mime-type. (Bastien Nocera) (!50)
 
  New or updated application translations:
 
@@ -31,7 +125,7 @@ version 3.32.2
 
  Bugs fixed:
 
-  * Prevents CTRL+F to be activated twice for a single key press. 
+  * Prevents CTRL+F to be activated twice for a single key press.
     (Andrea Azzarone) (!37)
 
  New or updated application translations:
