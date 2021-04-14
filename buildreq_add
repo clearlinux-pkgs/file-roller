@@ -1,4 +1,8 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
-itstool
 colord
+itstool
+json-glib-dev
+libarchive-dev
+libnotify-dev
+nautilus-dev
