@@ -1,5 +1,5 @@
 PKG_NAME := file-roller
-URL = https://download.gnome.org/sources/file-roller/3.38/file-roller-3.38.1.tar.xz
+URL = https://download.gnome.org/sources/file-roller/3.40/file-roller-3.40.0.tar.xz
 ARCHIVES = 
 
 include ../common/Makefile.common
