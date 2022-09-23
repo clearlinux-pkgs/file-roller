@@ -4,7 +4,7 @@
 #
 Name     : file-roller
 Version  : 43.0
-Release  : 26
+Release  : 27
 URL      : https://download.gnome.org/sources/file-roller/43/file-roller-43.0.tar.xz
 Source0  : https://download.gnome.org/sources/file-roller/43/file-roller-43.0.tar.xz
 Summary  : No detailed summary available
