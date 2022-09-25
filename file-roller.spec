@@ -4,7 +4,7 @@
 #
 Name     : file-roller
 Version  : 43.0
-Release  : 28
+Release  : 29
 URL      : https://download.gnome.org/sources/file-roller/43/file-roller-43.0.tar.xz
 Source0  : https://download.gnome.org/sources/file-roller/43/file-roller-43.0.tar.xz
 Summary  : No detailed summary available
@@ -109,7 +109,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1664076796
+export SOURCE_DATE_EPOCH=1664143881
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -123,7 +123,7 @@ ninja -v -C builddir
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/file-roller
-cp %{_builddir}/file-roller-%{version}/COPYING %{buildroot}/usr/share/package-licenses/file-roller/68c94ffc34f8ad2d7bfae3f5a6b996409211c1b1
+cp %{_builddir}/file-roller-%{version}/COPYING %{buildroot}/usr/share/package-licenses/file-roller/68c94ffc34f8ad2d7bfae3f5a6b996409211c1b1 || :
 DESTDIR=%{buildroot} ninja -C builddir install
 %find_lang file-roller
 
