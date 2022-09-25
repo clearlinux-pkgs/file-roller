@@ -1,5 +1,4 @@
 43.0
 libportal-dev
 pkgconfig(libhandy-1)
-pkgconfig(libnautilus-extension-4)
 pkgconfig(libportal)

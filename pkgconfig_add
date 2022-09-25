@@ -2,5 +2,5 @@
 # not get picked up automatically. One name per line, no whitespace.
 json-glib-1.0
 libarchive
-libnautilus-extension
+libnautilus-extension-4
 libnotify
