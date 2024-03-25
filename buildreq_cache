@@ -1,4 +1,4 @@
-43.0
+44
 libportal-dev
-pkgconfig(libhandy-1)
+pkgconfig(libadwaita-1)
 pkgconfig(libportal)
