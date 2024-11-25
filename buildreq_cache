@@ -1,4 +1,5 @@
-44.2
+44.4
 libportal-dev
 pkgconfig(libadwaita-1)
 pkgconfig(libportal)
+pkgconfig(libportal-gtk4)
